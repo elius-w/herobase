@@ -23,13 +23,13 @@ const BurgerNav = () => {
         </S.CloseWrapper>
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <a href="./">HOME</a>
           </li>
           <li>
-            <a href="/">OUR WORK</a>
+            <a href="about">OUR WORK</a>
           </li>
           <li>
-            <a href="/">TEAM</a>
+            <a href="404">TEAM</a>
           </li>
         </ul>
       </S.BurgerNav>
