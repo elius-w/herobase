@@ -7,7 +7,6 @@ export const Wrapper = styled.main`
 export const Image = styled.div`
   ${({ theme }) => css`
     width: 100%;
-    background: red;
     margin-bottom: ${theme.spacings.medium};
     overflow-y: hidden;
     position: relative;

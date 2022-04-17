@@ -50,23 +50,6 @@ export const Wrapper = styled.div`
     cursor: pointer;
   }
 `
-// export const Column = styled.div`
-//   ${({ theme }) => css`
-//     padding: ${theme.spacings.small};
-//     background: red;
-
-//     :nth-child(1) {
-//       text-align: left;
-//     }
-//     :nth-child(2) {
-//       text-align: center;
-//     }
-//     :nth-child(3) {
-//       display: flex;
-//       justify-content: end;
-//     }
-//   `}
-// `
 
 export const Social = styled.div`
   ${({ theme }) => css`
