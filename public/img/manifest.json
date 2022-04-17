@@ -1,0 +1,17 @@
+{
+  "name": "Herobase",
+  "short_name": "Herobase",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+
+  ],
+  "background_color": "#000",
+  "description": "Herobase | Todo Herói Precisa De Uma Base!",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#000"
+}
