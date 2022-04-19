@@ -9,7 +9,7 @@ export const Container = styled.section`
 `
 export const Content = styled.section`
   ${({ theme }) => css`
-    max-width: 90rem;
+    max-width: 108rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -43,7 +43,7 @@ export const Wrapper = styled.section`
       display: block;
       cursor: pointer;
       position: absolute;
-      bottom: -6%;
+      bottom: -13%;
       width: 10rem;
       height: 1rem;
       padding: 0;

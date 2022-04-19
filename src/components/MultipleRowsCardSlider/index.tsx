@@ -11,70 +11,58 @@ export type TeamCardSliderProps = {
 const items = [
   {
     img: 'https://i.ibb.co/Vvs2FJj/red01.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/XLMfBxN/red02.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/c2gmJhD/red03.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/nC7j8WX/red04.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/GkbpwRg/red05.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/3Wtg0MD/red06.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/Vvs2FJj/red01.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/XLMfBxN/red02.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/c2gmJhD/red03.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/nC7j8WX/red04.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/GkbpwRg/red05.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   },
   {
     img: 'https://i.ibb.co/3Wtg0MD/red06.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Herobase'
   }
 ]
 const settings: SliderSettings = {
   slidesToShow: 3,
   infinite: false,
   lazyLoad: 'ondemand',
-  rows: 2,
+  rows: 1,
   responsive: [
     {
       breakpoint: 1350,

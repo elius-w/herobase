@@ -11,38 +11,38 @@ import { Content } from 'components/Content'
 const items = [
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   },
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   },
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   },
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   },
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   },
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   },
   {
     img: 'https://i.ibb.co/DbyRbGx/bg-carrossel.png',
-    nome: 'Nome completo',
-    cargo: 'Cargo'
+    nome: 'Nome Completo',
+    cargo: 'Jogador'
   }
 ]
 const settings: SliderSettings = {

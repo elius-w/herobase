@@ -14,6 +14,7 @@ export const Wrapper = styled.article`
     cursor: pointer;
 
     &:hover {
+      background: #181717;
       transform: scale(1.02);
       box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
         0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),

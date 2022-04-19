@@ -4,7 +4,7 @@ import * as S from './styles'
 
 const items = [
   {
-    title: 'Corpus Christi',
+    title: 'Herobase',
     img: 'https://i.ibb.co/Jz00s2v/Interface-Hero-Create-03.jpg'
   }
 ]
