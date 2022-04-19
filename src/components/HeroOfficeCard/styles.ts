@@ -29,7 +29,6 @@ export const Content = styled.div`
     text-align: center;
     padding: ${theme.spacings.xsmall};
     color: white;
-    background-color: ${theme.colors.blueLight1};
     transition: all 0.3s ease;
     h1 {
       text-transform: uppercase;

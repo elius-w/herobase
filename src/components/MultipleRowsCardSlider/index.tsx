@@ -6,7 +6,7 @@ import * as S from './styles'
 import { Content } from 'components/Content'
 
 export type TeamCardSliderProps = {
-  color?: 'blueLight1' | 'darkGray' | 'redLight1'
+  color?: 'darkGray' | 'redLight1'
 }
 const items = [
   {
