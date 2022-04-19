@@ -26,20 +26,7 @@ export default {
     }
   },
   colors: {
-    blueLight1: '#00599D',
-    blueLight2: '#0074BC',
-    blueLight3: '#58B0E3',
-    blueLight4: '#329BBE',
-
-    grennLight1: '#7E9B79',
-    grennLight2: '#8BAA84',
-    grennLight3: '#B5CDB2',
-
     orangeLight1: '#ff2f00',
-    orangeLight2: '#EDA460',
-
-    redLight1: '#C96C6C',
-    redLight2: '#DE7777',
 
     white: '#FAFAFA',
     black: '#141414',

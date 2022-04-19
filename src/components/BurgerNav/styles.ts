@@ -2,22 +2,24 @@ import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
 export const BurgerIcon = styled.div`
-  margin-right: 2rem;
-  svg {
-    font-size: 2.5rem;
-    color: #fff;
-    cursor: pointer;
-  }
+  ${({ theme }) => css`
+    margin-right: 2rem;
+    svg {
+      font-size: 2.5rem;
+      color: ${theme.colors.white};
+      cursor: pointer;
+    }
 
-  ${media.lessThan('medium')`
+    ${media.lessThan('medium')`
     top:35%;
     z-index: 5;
     position: absolute;
     right: 0;
   `}
 
-  ${media.lessThan('medium')`
+    ${media.lessThan('medium')`
     display: flex;
+  `}
   `}
 `
 type overlayProps = {

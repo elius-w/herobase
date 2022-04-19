@@ -1,5 +1,5 @@
 {
-  "name": "Resort-La-Torre",
+  "name": "herobase",
   "private": true,
   "scripts": {
     "dev": "next dev",
