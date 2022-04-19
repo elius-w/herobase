@@ -46,7 +46,10 @@ export const Column = styled.div`
         ${media.lessThan('medium')`
           margin-bottom: -7rem;
         `}
-        ${media.lessThan('large')`
+        ${media.lessThan('small')`
+          width: 90%;
+          justify-content:center;
+          margin-bottom: -6rem;
         `}
       }
     }
@@ -59,6 +62,9 @@ export const Column = styled.div`
       text-align: center;
         `}
     }
+    ${media.lessThan('small')`
+          width: 100%;
+        `}
 
     ${media.lessThan('large')`
       padding: ${theme.spacings.xsmall};

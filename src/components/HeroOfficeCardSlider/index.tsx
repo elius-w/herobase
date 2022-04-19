@@ -10,35 +10,33 @@ import { Content } from 'components/Content'
 
 const items = [
   {
-    img: 'http://morochaclub.com/img/react-slick/slider01.jpg',
-    nome: 'Lorem inpsum'
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    nome: 'Hero Office'
   },
   {
-    img: 'http://morochaclub.com/img/react-slick/slider02.jpg',
-    nome: 'Lorem inpsum'
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    nome: 'Hero Office'
   },
   {
-    img: 'http://morochaclub.com/img/react-slick/slider03.jpg',
-    nome: 'Lorem inpsum'
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    nome: 'Hero Office'
   },
   {
-    img: 'http://morochaclub.com/img/react-slick/slider04.jpg',
-    nome: 'Lorem inpsum'
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    nome: 'Hero Office'
   }
 ]
 const settings: SliderSettings = {
   customPaging: function (i) {
-    const urlBase = 'http://morochaclub.com/img/react-slick'
+    const urlBase =
+      'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick'
 
     const img = `slider0${i + 1}.jpg`
 
     return (
       <div className="thunbs">
         <a>
-          <img
-            src={`${urlBase}/${img}`}
-            // style={{ width: '50px;', height: '50px', objectFit: 'cover' }}
-          />
+          <img src={`${urlBase}/${img}`} />
         </a>
       </div>
     )

@@ -2,13 +2,6 @@ import { createGlobalStyle, css } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
-:root{
-  --primary-color: #00599D;
-
-  --white-color:#ffffff;
-}
-
-
 *{
   margin:0;
   padding:0;
@@ -37,26 +30,19 @@ a {
 ul, li {
     list-style: none;
 }
-
-.hoverEffect{
-  transform: translateY(0);
-  transition: all 0.3s ease;
-
-  :hover{
-    transform: translateY(-0.2rem);
+${({ theme }) => css`
+  .error-page {
+    height: calc(100vh - 500px);
+    color: ${theme.colors.white};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      font-size: 10rem;
+    }
   }
-}
-
-.error-page{
-  height: calc(100vh - 500px);
-  color:#fff;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  flex-direction: column;
-  h1{font-size:10rem;}
-
-}
+`}
 
 `
 

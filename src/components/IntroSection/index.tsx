@@ -12,7 +12,6 @@ const IntroSection = () => {
             </span>
           </S.Column>
           <S.Column>
-            {' '}
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the standard dummy text ever since
