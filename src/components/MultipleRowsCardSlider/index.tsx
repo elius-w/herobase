@@ -59,7 +59,7 @@ const items = [
   }
 ]
 const settings: SliderSettings = {
-  slidesToShow: 3,
+  slidesToShow: 4,
   infinite: false,
   lazyLoad: 'ondemand',
   rows: 1,
