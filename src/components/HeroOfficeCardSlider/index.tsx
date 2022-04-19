@@ -14,15 +14,15 @@ const items = [
     nome: 'Hero Office'
   },
   {
-    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider02.jpg',
     nome: 'Hero Office'
   },
   {
-    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider03.jpg',
     nome: 'Hero Office'
   },
   {
-    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider01.jpg',
+    img: 'https://portobrasiltur.com.br/wp-content/uploads/img/react-slick/slider04.jpg',
     nome: 'Hero Office'
   }
 ]
