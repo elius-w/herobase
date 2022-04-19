@@ -4,8 +4,8 @@ import CountersNumbers from 'components/CountersNumbers'
 const IntroSection = () => {
   return (
     <>
-      <S.Container>
-        <S.Content>
+      <S.ContainerHeader>
+        <S.Wrapper>
           <S.Column>
             <span>
               <img src="https://i.ibb.co/CtHyN50/image-header.png" />
@@ -21,9 +21,17 @@ const IntroSection = () => {
               typesetting, remaining essentially unchanged.
             </p>
           </S.Column>
-        </S.Content>
-        <CountersNumbers />
-      </S.Container>
+        </S.Wrapper>
+      </S.ContainerHeader>
+
+      <S.WrapperCounter>
+        <CountersNumbers amount={55} description="Marcas" />
+        <CountersNumbers
+          amount={111111111}
+          description="Jogadores alcançados"
+        />
+        <CountersNumbers amount={111111111} description="Acesso total" />
+      </S.WrapperCounter>
     </>
   )
 }
